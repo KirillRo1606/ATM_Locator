@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B715FDD7296703A900AF24FF /* ATMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715FDD6296703A900AF24FF /* ATMManager.swift */; };
+		B715FDD929672ACC00AF24FF /* ATMData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715FDD829672ACC00AF24FF /* ATMData.swift */; };
+		B715FDDB2969AA2E00AF24FF /* ATMPointInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715FDDA2969AA2E00AF24FF /* ATMPointInfo.swift */; };
+		B75A8DFF295A06FF00DD33F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75A8DFE295A06FF00DD33F4 /* AppDelegate.swift */; };
+		B75A8E01295A06FF00DD33F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75A8E00295A06FF00DD33F4 /* SceneDelegate.swift */; };
+		B75A8E03295A06FF00DD33F4 /* ATMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75A8E02295A06FF00DD33F4 /* ATMLocationViewController.swift */; };
+		B75A8E08295A070000DD33F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75A8E07295A070000DD33F4 /* Assets.xcassets */; };
+		B75A8E0B295A070000DD33F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75A8E09295A070000DD33F4 /* LaunchScreen.storyboard */; };
+		D9B7319B2E7D965F206F7FEB /* Pods_clevertec_romanov_fourthTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A74B9809DC3EC2FE5A46DC8 /* Pods_clevertec_romanov_fourthTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A74B9809DC3EC2FE5A46DC8 /* Pods_clevertec_romanov_fourthTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clevertec_romanov_fourthTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B715FDD6296703A900AF24FF /* ATMManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMManager.swift; sourceTree = "<group>"; };
+		B715FDD829672ACC00AF24FF /* ATMData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMData.swift; sourceTree = "<group>"; };
+		B715FDDA2969AA2E00AF24FF /* ATMPointInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMPointInfo.swift; sourceTree = "<group>"; };
+		B75A8DFB295A06FF00DD33F4 /* clevertec.romanov.fourthTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clevertec.romanov.fourthTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75A8DFE295A06FF00DD33F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B75A8E00295A06FF00DD33F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B75A8E02295A06FF00DD33F4 /* ATMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMLocationViewController.swift; sourceTree = "<group>"; };
+		B75A8E07295A070000DD33F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B75A8E0A295A070000DD33F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B75A8E0C295A070000DD33F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC892D5CD4E92EFA0F4AEEA4 /* Pods-clevertec.romanov.fourthTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clevertec.romanov.fourthTask.release.xcconfig"; path = "Target Support Files/Pods-clevertec.romanov.fourthTask/Pods-clevertec.romanov.fourthTask.release.xcconfig"; sourceTree = "<group>"; };
+		F968EA40DBA2A6A5F2E3976A /* Pods-clevertec.romanov.fourthTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clevertec.romanov.fourthTask.debug.xcconfig"; path = "Target Support Files/Pods-clevertec.romanov.fourthTask/Pods-clevertec.romanov.fourthTask.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B75A8DF8295A06FF00DD33F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B7319B2E7D965F206F7FEB /* Pods_clevertec_romanov_fourthTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5550575E5E6743A136D57094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A74B9809DC3EC2FE5A46DC8 /* Pods_clevertec_romanov_fourthTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CCF9432AEB81049BC2806C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F968EA40DBA2A6A5F2E3976A /* Pods-clevertec.romanov.fourthTask.debug.xcconfig */,
+				CC892D5CD4E92EFA0F4AEEA4 /* Pods-clevertec.romanov.fourthTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B75A8DF2295A06FF00DD33F4 = {
+			isa = PBXGroup;
+			children = (
+				B75A8DFD295A06FF00DD33F4 /* clevertec.romanov.fourthTask */,
+				B75A8DFC295A06FF00DD33F4 /* Products */,
+				7CCF9432AEB81049BC2806C5 /* Pods */,
+				5550575E5E6743A136D57094 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B75A8DFC295A06FF00DD33F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B75A8DFB295A06FF00DD33F4 /* clevertec.romanov.fourthTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B75A8DFD295A06FF00DD33F4 /* clevertec.romanov.fourthTask */ = {
+			isa = PBXGroup;
+			children = (
+				B75A8DFE295A06FF00DD33F4 /* AppDelegate.swift */,
+				B75A8E00295A06FF00DD33F4 /* SceneDelegate.swift */,
+				B715FDD829672ACC00AF24FF /* ATMData.swift */,
+				B715FDD6296703A900AF24FF /* ATMManager.swift */,
+				B715FDDA2969AA2E00AF24FF /* ATMPointInfo.swift */,
+				B75A8E02295A06FF00DD33F4 /* ATMLocationViewController.swift */,
+				B75A8E07295A070000DD33F4 /* Assets.xcassets */,
+				B75A8E09295A070000DD33F4 /* LaunchScreen.storyboard */,
+				B75A8E0C295A070000DD33F4 /* Info.plist */,
+			);
+			path = clevertec.romanov.fourthTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B75A8DFA295A06FF00DD33F4 /* clevertec.romanov.fourthTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75A8E0F295A070000DD33F4 /* Build configuration list for PBXNativeTarget "clevertec.romanov.fourthTask" */;
+			buildPhases = (
+				1A535FE5CE0C90FEED7F71A0 /* [CP] Check Pods Manifest.lock */,
+				B75A8DF7295A06FF00DD33F4 /* Sources */,
+				B75A8DF8295A06FF00DD33F4 /* Frameworks */,
+				B75A8DF9295A06FF00DD33F4 /* Resources */,
+				B75A8E12295A072100DD33F4 /* ShellScript */,
+				8B71CA5359DD9E3ABEFF100A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clevertec.romanov.fourthTask;
+			productName = clevertec.romanov.fourthTask;
+			productReference = B75A8DFB295A06FF00DD33F4 /* clevertec.romanov.fourthTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B75A8DF3295A06FF00DD33F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B75A8DFA295A06FF00DD33F4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B75A8DF6295A06FF00DD33F4 /* Build configuration list for PBXProject "clevertec.romanov.fourthTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B75A8DF2295A06FF00DD33F4;
+			productRefGroup = B75A8DFC295A06FF00DD33F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B75A8DFA295A06FF00DD33F4 /* clevertec.romanov.fourthTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B75A8DF9295A06FF00DD33F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75A8E0B295A070000DD33F4 /* LaunchScreen.storyboard in Resources */,
+				B75A8E08295A070000DD33F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A535FE5CE0C90FEED7F71A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clevertec.romanov.fourthTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B71CA5359DD9E3ABEFF100A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-clevertec.romanov.fourthTask/Pods-clevertec.romanov.fourthTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-clevertec.romanov.fourthTask/Pods-clevertec.romanov.fourthTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-clevertec.romanov.fourthTask/Pods-clevertec.romanov.fourthTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B75A8E12295A072100DD33F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B75A8DF7295A06FF00DD33F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B715FDD929672ACC00AF24FF /* ATMData.swift in Sources */,
+				B715FDDB2969AA2E00AF24FF /* ATMPointInfo.swift in Sources */,
+				B75A8E03295A06FF00DD33F4 /* ATMLocationViewController.swift in Sources */,
+				B75A8DFF295A06FF00DD33F4 /* AppDelegate.swift in Sources */,
+				B715FDD7296703A900AF24FF /* ATMManager.swift in Sources */,
+				B75A8E01295A06FF00DD33F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B75A8E09295A070000DD33F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75A8E0A295A070000DD33F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B75A8E0D295A070000DD33F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B75A8E0E295A070000DD33F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B75A8E10295A070000DD33F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F968EA40DBA2A6A5F2E3976A /* Pods-clevertec.romanov.fourthTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H32SG52M9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = clevertec.romanov.fourthTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clevertec.romanov.clevertec-romanov-fourthTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B75A8E11295A070000DD33F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC892D5CD4E92EFA0F4AEEA4 /* Pods-clevertec.romanov.fourthTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H32SG52M9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = clevertec.romanov.fourthTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clevertec.romanov.clevertec-romanov-fourthTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B75A8DF6295A06FF00DD33F4 /* Build configuration list for PBXProject "clevertec.romanov.fourthTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75A8E0D295A070000DD33F4 /* Debug */,
+				B75A8E0E295A070000DD33F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75A8E0F295A070000DD33F4 /* Build configuration list for PBXNativeTarget "clevertec.romanov.fourthTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75A8E10295A070000DD33F4 /* Debug */,
+				B75A8E11295A070000DD33F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B75A8DF3295A06FF00DD33F4 /* Project object */;
+}
